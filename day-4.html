@@ -1,76 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JavaScript Day 4</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-  <p>
-    <a href="index.html">home</a>
-  </p>
-  <h1>More JavaScript Variables</h1>
-  <p>You can create your own variables by delcaring them and assigning to them. You can even re-assign them. Let get some more practice.</p>
-  <h2>Examples</h2>
-  <p>Let's remember how to delcare variables.</p>
-  <script>
-
-    let a;
-    let b;
-    let c;
-
-    a = 16;
-    b = 32;
-    c = 64;
-    
-  </script>
-
-  <p>
-    a times b is 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Day 4</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <p>
+      <a href="index.html">home</a>
+    </p>
+    <h1>More JavaScript Variables</h1>
+    <p>
+      You can create your own variables by delcaring them and assigning to them.
+      You can even re-assign them. Let get some more practice.
+    </p>
+    <h2>Examples</h2>
+    <p>Let's remember how to delcare variables.</p>
     <script>
-      document.write(a*b);
-    </script>
-  </p>
-  <p>
-    a times c is 
-    <script>
-      document.write(a*c);
-    </script>
-  </p>
-  <h3>You try it!</h3>
-  <p>TODO: Create variables called x, y and z. Then use them with mathematical operators.</p>
-  <script>
-    
-  </script>
-  <p>
-    x plus y is
-    <script>
+      let a;
+      let b;
+      let c;
 
+      a = 16;
+      b = 32;
+      c = 64;
     </script>
-  </p>
-  <p>
-    x times y is
+
+    <p>
+      a times b is
+      <script>
+        document.write(a * b);
+      </script>
+    </p>
+    <p>
+      a times c is
+      <script>
+        document.write(a * c);
+      </script>
+    </p>
+    <h3>You try it!</h3>
+    <p>
+      TODO: Create variables called x, y and z. Then use them with mathematical
+      operators.
+    </p>
     <script>
+      let x;
+      let y;
+      let z;
 
+      x = 15;
+      y = 30;
+      z = 45;
     </script>
-  </p>
-  <p>
-    y divided by z is
+    <p>
+      x plus y is
+      <script>
+        document.write(x + y);
+      </script>
+    </p>
+    <p>
+      x times y is
+      <script>
+        document.write(x * y);
+      </script>
+    </p>
+    <p>
+      y divided by z is
+      <script>
+        document.write(y / z);
+      </script>
+    </p>
+
+    <h2>More practice</h2>
+    <p>
+      Create 3 more variables and use them in script tags below. Choose the
+      names of the variables yourself.
+    </p>
     <script>
+      let apples;
+      let pears;
+      let bananas;
 
+      apples = 20;
+      pears = 40;
+      bananas = 60;
     </script>
-  </p>
 
-  <h2>More practice</h2>
-  <p>Create 3 more variables and use them in script tags below. Choose the names of the variables yourself.</p>
-  <script>
-    
-  </script>
-  <p></p>
-  <p></p>
-  <p></p>
-  
-</body>
+    <p>
+      The total of apples and pears is
+      <strong>
+        <script>
+          document.write(apples + pears);
+        </script>
+      </strong>
+    </p>
+
+    <p>
+      There are
+      <strong>
+        <script>
+          document.write(bananas - apples);
+        </script>
+      </strong>
+      more bananas than apples.
+    </p>
+
+    <p>
+      There are
+      <strong>
+        <script>
+          document.write(bananas - pears);
+        </script>
+      </strong>
+      fewer pears than bananas.
+    </p>
+  </body>
 </html>
