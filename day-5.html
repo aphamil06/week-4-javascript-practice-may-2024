@@ -53,7 +53,7 @@
   <p>POP QUIZ: what is the value at x=20?</p>
   <pre>
     f(20) = 20 * .25 + 5
-    f(20) = ?
+    f(20) = 10
   </pre>
 
   <p>I hope you can see the power of functions here!</p>
@@ -76,7 +76,7 @@
       y1 = f(0);
       document.write(y1);
     </script>
-  </p>
+  </p>k
   <p>
     For x = 40...
     f(x) =
@@ -92,11 +92,13 @@
     For x = 20...
     f(x) =
     <script>
+      y3 = f(20)
+      document.write(y3)
     </script>
   </p>
   <h3>Example 2</h3>
   <p>Let's make a new function. We will call it g(x).</p>
-  <p> Our ice cream shop raised it's prices to $5 for one cone. We still sell one cone a day. We still start with $5.
+  <p> Our ice cream shop raised it's prices to $2 for one cone. We still sell one cone a day. We still start with $5.
     Our new function looks like this: </p>
   <pre>
     g(x) = 2 * x + 5;
@@ -139,7 +141,7 @@
     </script>
   </p>
   <p>
-    For x = 5...
+    For x = 10...
     g(x) =
     <script>
       z2 = g(10);
@@ -151,23 +153,26 @@
     For x = 15...
     g(x) =
     <script>
-      z3 = g();
-      document.write();
+      z3 = g(15);
+      document.write(z3);
     </script>
   </p>
   <h4> TODO: You try this one! </h4>
   <p>
     For x = 21...
-    g(x) = ?
+    g(x) = 
     <script>
-
+      z4 = g(21)
+      document.write(z4)
     </script>
   </p>
   <h4> TODO: You try this one! </h4>
   <p>
     For x = 1001...
-    g(x) = ?
+    g(x) = 
     <script>
+      z5 = g(1001)
+      document.write(z5)
 
     </script>
   </p>
@@ -177,9 +182,63 @@
     Write a function that will calculate the cash that the shop has earned after x days. Then caclulate that for 5, 10,
     15, 21 and 1001 days.</p>
 
+    <pre>
+      days(x) = x * 1.50 + 5
+    </pre>
+
+    
   <h4>TODO: You try this one!</h4>
   <p> In the space bellow, write the html tags and javascript code to make your functions. Write the code to write the
     results of the functions to the page. </p>
+
+    <script>
+      let c1;
+      let c2;
+      let c3;
+      let c4;
+      let c5;
+
+      function days(x) {
+        return x * 1.50 + 5;
+      }
+    </script>
+  
+    <p>
+      For x=5...days(x)=
+      <script>
+        c1 = days(5)
+        document.write(c1)
+        </script>
+      </p>
+      <p>
+        for x=10.....days(x)=
+        <script>
+          c2 = days(10)
+          document.write(c2)
+        </script>
+      </p>
+      <p>
+        for x=15.....days(x)=
+        <script>
+          c3 = days(15)
+          document.write(c3)
+        </script>
+      </p>
+      <p>
+        For x=21...days(x)=
+        <script>
+          c4 = days(21)
+          document.write(c4)
+        </script>
+      </p>
+      <p>
+        for x=1001...days(x)=
+        <script>
+          c5 = days(1001)
+          document.write(c5)
+        </script>
+      </p>
+
 
 
 
